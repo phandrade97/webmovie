@@ -1,0 +1,23 @@
+.webmovie-form-container{
+	max-width: 480px;
+	margin: 40px auto;
+	padding: 20px;
+}
+
+.webmovie-form{
+	width: calc(100% - 20px);
+}
+
+.webmovie-form-group{
+	margin-bottom: 20px;
+}
+
+.webmovie-form-group label{
+	font-size:12px;
+	color:#aaa;
+}
+
+.webmovie-form-btn-container{
+	display:flex;
+	justify-content:center;
+}
