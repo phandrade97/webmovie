@@ -1,23 +1,36 @@
-.webmovie-form-container{
-	max-width: 480px;
+.webmovie-form-container {
+	max-width: 400px;
 	margin: 40px auto;
-	padding: 20px;
+	padding: 10px;
+    
 }
 
-.webmovie-form{
-	width: calc(100% - 20px);
+.webmovie-form {
+	width: calc(100% - 50px);
 }
 
-.webmovie-form-group{
+.webmovie-form-group {
 	margin-bottom: 20px;
 }
 
-.webmovie-form-group label{
-	font-size:12px;
+.webmovie-form-group label {
+	font-size: 14px;
 	color:#aaa;
 }
 
-.webmovie-form-btn-container{
-	display:flex;
-	justify-content:center;
+.webmovie-form-btn-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.webmovie-btn {
+    width: 100%;
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.webmovie-btn:last-child {
+    margin-bottom: 5;
 }

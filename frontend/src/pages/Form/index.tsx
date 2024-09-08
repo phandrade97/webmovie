@@ -5,7 +5,7 @@ function Form() {
 
     const movie = {
         id: 1,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3O_pOj4H4yL1vu0PwVoQFlIX4D5lB46SKHQ&s",
+        image: "https://media.themoviedb.org/t/p/w220_and_h330_face/vb4T4VSJ38XdFI9RYS2QB6CCJmd.jpg",
         title: "Twisters",
         count: 1,
         score: 3.5
@@ -14,7 +14,7 @@ function Form() {
 
 
     return (
-            <div className="webmovie-form-container">
+        <div className="webmovie-form-container">
             <img className="webmovie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="webmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
@@ -35,13 +35,13 @@ function Form() {
                     </div>
                     <div className="webmovie-form-btn-container">
                         <button type="submit" className="btn btn-primary webmovie-btn">Salvar</button>
-                      </div>
-                        </form >
                         <Link to="/">
-                        <button className="btn btn-primary webmovie-btn mt-3">Cancelar</button>
+                            <button className="btn btn-primary webmovie-btn mt-2">Cancelar</button>
                         </Link>
-                    </div >
-    </div >
+                    </div>
+                </form>
+            </div>
+        </div>
     );
 }
 
