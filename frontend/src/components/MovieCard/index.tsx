@@ -1,22 +1,20 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import { Movie } from "types/movie";
 
-function MovieCard() {
+type Props = {
+    movie: Movie;
+}
 
-        const movie = {
-            id: 1,
-            image: "https://media.themoviedb.org/t/p/w220_and_h330_face/36eh6VZ8fFjv7bD5Xa1vO2CvzNN.jpg",
-            title: "Twisters",
-            count: 1,
-            score: 3.5
+function MovieCard( { movie } : Props) {
+
     
-        };
 
         return (
         <div>
-            <img className="webmovie-movie-card-image" src={movie.image} alt={movie.title} />
+            <img className="webmovie-movie-card-image" src={movie.image} alt={movie.titulo} />
             <div className="webmovie-card-bottom-container">
-                <h3>{movie.title}</h3>
+                <h3>{movie.titulo}</h3>
                 <MovieScore />
 
 
