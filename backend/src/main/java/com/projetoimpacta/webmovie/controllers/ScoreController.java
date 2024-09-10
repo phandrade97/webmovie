@@ -13,7 +13,7 @@ import com.projetoimpacta.webmovie.services.ScoreService;
 @RestController
 @RequestMapping(value = "/scores")
 public class ScoreController {
-
+	
 	@Autowired
 	private ScoreService service;
 
