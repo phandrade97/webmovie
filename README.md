@@ -38,3 +38,7 @@ Ferramentas de Desenvolvimento
 * PgAdmin
 
 * Git / GitHub
+
+Requisitos
+
+Antes de iniciar o projeto, você precisa ter Java e Yarn instalados.
