@@ -15,10 +15,6 @@ Backend
 
 * PostgreSQL
 
-* H2
-
-* Maven
-
 Frontend
 
 * HTML
